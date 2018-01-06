@@ -1,0 +1,241 @@
+a.navbar-brand, ul li a, h2.text-center, h3.text-center {
+	font-family: 'Chango', cursive;
+	letter-spacing: 0.2vw;
+	color: #F48E20;
+}
+
+a.navbar-brand {
+        font-size: 30px;
+    }
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+div.navbar-header a.navbar-brand, body h2.text-center.pageTitle {
+    color: #5885C9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a button#logCabinButton.btn.btn-default.btn-lg.pull-left, #hamburgerButton {
+    border: none;
+    background: transparent;
+}
+
+#hamburgerButton span.glyphicon.glyphicon-menu-hamburger {
+    top: 3px;
+}
+
+body {
+    background: rgb(255, 255, 255) url('../img/mountainWallpaper.png') no-repeat center;
+    background-size: cover;
+}
+
+h2 {
+	font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2.text-center.pageTitle {
+    color: #5E5E5E;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 3%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+div.carousel-inner, div.col-xs-3.col-centered, img.img-responsive.center-block {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.row-centered {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    text-align: center;
+    background-color: #5885C9;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+	margin-top: 3%;
+}
+
+.margin-right {
+	margin-right: 4%;
+}
+
+.margin-left {
+	margin-left: 4%;
+}
+
+.contentBox {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.topMargin {
+    margin-top: 8.5%;
+}
+
+.bottomMargin {
+    margin-bottom: 8.5%;
+}
+
+a.btn.btn-default.btn-block, a.btn.btn-default.btn-block.topMargin, a.btn.btn-default.btn-block.bottomMargin {
+    font-family: 'Chango', cursive;
+    color: #F48E20;
+    font-size: 20px;
+    letter-spacing: 0.2vw;
+}
+
+#loginTopMargin {
+    margin-top: 2.5%;
+}
+
+#loginBottomMargin {
+    margin-bottom: 2.5%;
+}
+
+#contactTopMargin {
+    margin-top: 15%;
+}
+
+#contactBottomMargin {
+    margin-bottom: 15%;
+}
+
+/* general tablet styles */
+@media screen and (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .row-centered {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    a.navbar-brand {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h2.text-center.pageTitle {
+        color: #5E5E5E;
+        font-size: 30px;
+    }
+
+    h3 {
+        margin-top: 5%;
+    }
+
+    footer {
+        margin-top: 5%;
+    }
+
+    .contentBox {
+        font-size: 25px;
+    }
+
+    .topMargin {
+        margin-top: 1%;
+    }
+
+    .bottomMargin {
+        margin-bottom: 1%;
+    }
+
+    a.btn.btn-default.btn-block, a.btn.btn-default.btn-block.topMargin, a.btn.btn-default.btn-block.bottomMargin {
+        font-size: 25px;
+    }
+
+    .navbar-collapse.collapse.in {
+         display: block!important;
+    }
+
+    #plansTopMargin {
+        margin-top: 7.5%;
+    }
+
+    #plansBottomMargin {
+        margin-bottom: 7.5%;
+    }
+
+    #contactTopMargin {
+        margin-top: 11%;
+    }
+
+    #contactBottomMargin {
+        margin-bottom: 11%;
+    }
+
+}
+
+/* full site */
+@media screen and (min-width: 1024px) {
+    .row-centered {
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    h3 {
+        margin-top: 2%;
+    }
+
+    footer {
+        margin-top: 2%;
+    }
+
+    .topMargin {
+        margin-top: 3%;
+    }
+
+    .bottomMargin {
+        margin-bottom: 3%;
+    }
+
+    #plansTopMargin {
+        margin-top: 3%;
+    }
+
+    #plansBottomMargin {
+        margin-bottom: 3%;
+    }
+
+    #contactTopMargin {
+        margin-top: 3%;
+    }
+
+    #contactBottomMargin {
+        margin-bottom: 3%;
+    }
+}
+
+
